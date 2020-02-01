@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-style> 
+      .primary-color { color: #5db7d2; } 
+      .section-slash {font-size:36px;}
+    	.services-p {
+      	font-weight:400;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="800px" background-color="#eee">
+    <mj-section padding-left="100px">
+  <mj-column>
+    <mj-text>
+      <h2> NAME </h2>
+      <p>Designation</p>
+    </mj-text>
+    <mj-social font-size="15px" icon-size="30px" align="left">
+      <mj-social-element name="twitter" href="https://mjml.io/"> 050 xxx xxx </mj-social-element>
+        <mj-social-element name="twitter" href="https://mjml.io/"> name@evolutionevents.com </mj-social-element>
+    </mj-social>
+  </mj-column>
+
+  <mj-column> </mj-column>
+</mj-section>
+
+
+
+<mj-section>
+  <mj-column>
+    <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" width="100%" /> </mj-column>
+</mj-section>
+
+
+
+<mj-section>
+  <mj-column width=50%>
+    <mj-text>
+      <p class="services-p"> <span>SCIENIC</span> 
+        <span class="primary-color">/</span> <span>TECHNICAL</span> 
+        <span class="primary-color">/</span> <span>FURNITURE</span>  <br>
+        <span>SITE SERVICES</span> 
+        <span class="primary-color">/</span> <span>PRODUCTION</span> 
+        <span class="primary-color">/</span> <span>DESIGN</span> 
+      </p>
+      <p>Warehouse 22, Street 68, Jebel Ali Industrial Area 1, Dubai, UAE. T: +971 4 8825338</p>
+    </mj-text>
+  </mj-column>
+  <mj-column width=25%>
+    <mj-text>
+      <p><span class="primary-color section-slash">/</span>Follow us:</p>
+    </mj-text>
+    <mj-social font-size="15px" icon-size="15px" align="left">
+      <mj-social-element name="facebook" href="https://mjml.io/"></mj-social-element>
+      <mj-social-element name="twitter" href="https://mjml.io/"> </mj-social-element>
+      <mj-social-element name="linkedin" href="https://mjml.io/"> </mj-social-element>
+      <mj-social-element name="instagram" href="https://mjml.io/"> </mj-social-element>
+    </mj-social>
+  </mj-column>
+  <mj-column width=25%>
+    <mj-text> <span class="primary-color section-slash">/</span> </mj-text>
+    <mj-social font-size="15px" icon-size="15px" align="left">
+      <mj-social-element name="twitter" href="https://mjml.io/"> info@evolutionevents.com </mj-social-element>
+      <mj-social-element name="twitter" href="https://mjml.io/"> www.evolutionevents.com </mj-social-element>
+    </mj-social </mj-column>
+</mj-section>
+    
+    
+    
+    
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <p>The contents of this email message and any attachments are intended solely for the addressee(s) and may contain conﬁdential and/or privileged information which may be legally protected from disclosure. If you are not the intended recipient of this
+        message or their agent, or if this message has been addressed to you in error, please immediately alert the sender by reply email and then delete this message and any attachments. If you are not the intended recipient, you are hereby notiﬁed that
+        any use, dissemination, copying, or storage of this message or its attachments is strictly prohibited. </p>
+      <p>Internet communications cannot be guaranteed to be timely, secure, error or virus-free. The sender does not accept liability for any errors or omissions.</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+</mjml>
