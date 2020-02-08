@@ -64,9 +64,14 @@
     <!--<![endif]-->
     <style type="text/css">
         @media only screen and (min-width:480px) {
-            .mj-column-per-33 {
-                width: 33.333333333333336% !important;
-                max-width: 33.333333333333336%;
+            .mj-column-image {
+                width: 22% !important;
+                margin-left: -200px;
+            }
+
+            .mj-column-text {
+                width: 65% !important;
+                ;
             }
 
             .mj-column-per-100 {
@@ -96,19 +101,12 @@
         }
     </style>
     <style type="text/css">
-        @media only screen and (max-width:480px) {
-            table.full-width-mobile {
-                width: 100% !important;
-            }
-
-            td.full-width-mobile {
-                width: auto !important;
-            }
-        }
-    </style>
-    <style type="text/css">
         .primary-color {
             color: #5db7d2;
+        }
+
+        .logo-wrapper {
+            width: 120px;
         }
 
         .section-slash {
@@ -122,10 +120,6 @@
 
         .thin-p {
             font-weight: 100;
-        }
-
-        .adjust-header-desktop {
-            margin-top: 40px;
         }
 
         .adjust-content {
@@ -154,6 +148,10 @@
                 margin-top: 0px;
             }
 
+            .mj-column-image {
+                margin-left: -65px;
+            }
+
             .adjust-content {
                 margin-top: 0px;
             }
@@ -165,6 +163,12 @@
             .adjust-follow {
                 margin-bottom: -13px;
                 margin-left: 4px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .logo-wrapper {
+                width: 110px;
             }
         }
     </style>
@@ -191,156 +195,141 @@
                                           class="" style="vertical-align:top;width:266.6666666666667px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-33 outlook-group-fix"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <div class="mj-column-image outlook-group-fix"
+                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:35%;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation"
                                     style="vertical-align:top;" width="100%">
                                     <tr>
                                         <td class="padding_on_mobile"
-                                            style="font-size:0px;padding: 10px 25px;word-break:break-word;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                style="border-collapse:collapse;border-spacing:0px;">
-                                                <tbody>
-                                                    <tr>
-                                                        <td style="width:150px;">
-                                                            <img height="auto"
-                                                                src="https://raw.githubusercontent.com/rijinmk/evolve-emailer/master/evolve-emailer/EVO-Email-Signature-gif.gif?token=AF2ZRH4VUJ324F2INSA723K6GVRO4"
-                                                                style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                                                width="150" />
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                            style="font-size:0px;padding: 0px 5px;word-break:break-word;">
+                                        <td class="logo-wrapper">
+                                            <img height="auto"
+                                                src="https://raw.githubusercontent.com/rijinmk/evolve-emailer/master/evolve-emailer/EVO-Email-Signature-gif.gif?token=AF2ZRH4VUJ324F2INSA723K6GVRO4"
+                                                style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
+                                                width="150" />
                                         </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+        <!--[if mso | IE]>
                                        </td>
                                        <td
                                           class="" style="vertical-align:top;width:266.6666666666667px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-33 outlook-group-fix adjust-header-desktop"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td align="left" class="padding_on_mobile"
-                                            style="font-size:0px;word-break:break-word;">
-                                            <div
-                                                style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                <h2> NAME </h2>
-                                                <p>Designation</p>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td align="left" class="padding_on_mobile"
-                                            style="font-size:0px;word-break:break-word;">
-                                            <!--[if mso | IE]>
+        <div class="mj-column-text outlook-group-fix adjust-header-desktop"
+            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
+                width="100%">
+                <tr>
+                    <td align="left" class="padding_on_mobile" style="font-size:0px;word-break:break-word;">
+                        <div
+                            style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                            <h2> NAME </h2>
+                            <p>Designation</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="padding_on_mobile" style="font-size:0px;word-break:break-word;">
+                        <!--[if mso | IE]>
                                                       <table
                                                          align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
                                                          >
                                                          <tr>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background:#55acee;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_mobile.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <td style="vertical-align:middle;">
-                                                        <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                            style="color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
-                                                            target="_blank">
-                                                            050 xxx xxx
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            style="float:none;">
+                            <tr>
+                                <td style="padding:4px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                        style="background:#55acee;border-radius:3px;width:15px;">
+                                        <tr>
+                                            <td style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                    target="_blank">
+                                                    <img height="15"
+                                                        src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_mobile.png"
+                                                        style="border-radius:3px;display:block;" width="15" />
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td style="vertical-align:middle;">
+                                    <a href="https://twitter.com/home?status=https://mjml.io/"
+                                        style="color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
+                                        target="_blank">
+                                        050 xxx xxx
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso | IE]>
                                                             </td>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background:#55acee;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_email.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <td style="vertical-align:middle;">
-                                                        <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                            style="color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
-                                                            target="_blank">
-                                                            name@evolutionevents.com
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            style="float:none;display:inline-table;">
+                            <tr>
+                                <td style="padding:4px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                        style="background:#55acee;border-radius:3px;width:15px;">
+                                        <tr>
+                                            <td style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                    target="_blank">
+                                                    <img height="15"
+                                                        src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_email.png"
+                                                        style="border-radius:3px;display:block;" width="15" />
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td style="vertical-align:middle;">
+                                    <a href="https://twitter.com/home?status=https://mjml.io/"
+                                        style="color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
+                                        target="_blank">
+                                        name@evolutionevents.com
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso | IE]>
                                                             </td>
                                                          </tr>
                                                       </table>
                                                       <![endif]-->
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if mso | IE]>
                                        </td>
                                        <td
                                           class="" style="vertical-align:top;width:266.6666666666667px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-33 outlook-group-fix"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+        <div class="mj-column-per-33 outlook-group-fix"
+            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
+                width="100%">
+            </table>
+        </div>
+        <!--[if mso | IE]>
                                        </td>
                                     </tr>
                                  </table>
                                  <![endif]-->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!--[if mso | IE]>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+    <!--[if mso | IE]>
                </td>
             </tr>
          </table>
@@ -350,29 +339,29 @@
             <tr>
                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
                   <![endif]-->
-        <div style="margin:0px auto;max-width:800px;">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                <tbody>
-                    <tr>
-                        <td style="direction:ltr;font-size:0px;text-align:center;">
-                            <!--[if mso | IE]>
+    <div style="margin:0px auto;max-width:800px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+            <tbody>
+                <tr>
+                    <td style="direction:ltr;font-size:0px;text-align:center;">
+                        <!--[if mso | IE]>
                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                        <td
                                           class="" style="vertical-align:top;width:800px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-100 outlook-group-fix"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td class="padding_on_mobile"
-                                            style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                            <p
-                                                style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
-                                            </p>
-                                            <!--[if mso | IE]>
+                        <div class="mj-column-per-100 outlook-group-fix"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td class="padding_on_mobile"
+                                        style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                        <p
+                                            style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                        </p>
+                                        <!--[if mso | IE]>
                                                       <table
                                                          align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:750px;" role="presentation" width="750px"
                                                          >
@@ -383,21 +372,21 @@
                                                          </tr>
                                                       </table>
                                                       <![endif]-->
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                     </tr>
                                  </table>
                                  <![endif]-->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!--[if mso | IE]>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--[if mso | IE]>
                </td>
             </tr>
          </table>
@@ -407,327 +396,327 @@
             <tr>
                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
                   <![endif]-->
-        <div style="margin:0px auto;max-width:800px;">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                <tbody>
-                    <tr>
-                        <td style="direction:ltr;font-size:0px;text-align:center;">
-                            <!--[if mso | IE]>
+    <div style="margin:0px auto;max-width:800px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+            <tbody>
+                <tr>
+                    <td style="direction:ltr;font-size:0px;text-align:center;">
+                        <!--[if mso | IE]>
                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                        <td
                                           class="" style="vertical-align:top;width:320px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-40 outlook-group-fix"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td align="left" class="padding_on_mobile"
-                                            style="font-size:0px;padding:0px 25px;word-break:break-word;">
-                                            <div
-                                                style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                <p class="services-p"> <span>SCIENIC</span>
-                                                    <span class="primary-color">/</span> <span>TECHNICAL</span>
-                                                    <span class="primary-color">/</span> <span>FURNITURE</span> <br>
-                                                    <span>SITE SERVICES</span>
-                                                    <span class="primary-color">/</span> <span>PRODUCTION</span>
-                                                    <span class="primary-color">/</span> <span>DESIGN</span>
-                                                </p>
-                                                <p class="thin-p">Warehouse 22, Street 68, Jebel Ali Industrial Area 1,
-                                                    Dubai, UAE. T: +971 4 8825338</p>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                        <div class="mj-column-per-40 outlook-group-fix"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td align="left" class="padding_on_mobile"
+                                        style="font-size:0px;padding:0px 25px;word-break:break-word;">
+                                        <div
+                                            style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                                            <p class="services-p"> <span>SCIENIC</span>
+                                                <span class="primary-color">/</span> <span>TECHNICAL</span>
+                                                <span class="primary-color">/</span> <span>FURNITURE</span> <br>
+                                                <span>SITE SERVICES</span>
+                                                <span class="primary-color">/</span> <span>PRODUCTION</span>
+                                                <span class="primary-color">/</span> <span>DESIGN</span>
+                                            </p>
+                                            <p class="thin-p">Warehouse 22, Street 68, Jebel Ali Industrial Area 1,
+                                                Dubai, UAE. T: +971 4 8825338</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                        <![endif]-->
-                            <!-- <span class="primary-color section-slash">/</span> -->
-                            <!--[if mso | IE]>
+                        <!-- <span class="primary-color section-slash">/</span> -->
+                        <!--[if mso | IE]>
                                        <td
                                           class="hide_on_mobile-outlook" style="vertical-align:top;width:40px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-5 outlook-group-fix hide_on_mobile"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td align="left" style="font-size:0px;padding:10px 0px;word-break:break-word;">
-                                            <div
-                                                style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                <span class="primary-color section-slash">/</span></div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                        <div class="mj-column-per-5 outlook-group-fix hide_on_mobile"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td align="left" style="font-size:0px;padding:10px 0px;word-break:break-word;">
+                                        <div
+                                            style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                                            <span class="primary-color section-slash">/</span></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                        <td
                                           class="" style="vertical-align:top;width:120px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-15 outlook-group-fix adjust-content"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td class="padding_on_mobile" align="left"
-                                            style="font-size:0px;word-break:break-word;">
-                                            <div class="adjust-follow"
-                                                style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                <p>Follow us:</p>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td align="left" class="padding_on_mobile"
-                                            style="font-size:0px;word-break:break-word;">
-                                            <!--[if mso | IE]>
+                        <div class="mj-column-per-15 outlook-group-fix adjust-content"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td class="padding_on_mobile" align="left"
+                                        style="font-size:0px;word-break:break-word;">
+                                        <div class="adjust-follow"
+                                            style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                                            <p>Follow us:</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="padding_on_mobile"
+                                        style="font-size:0px;word-break:break-word;">
+                                        <!--[if mso | IE]>
                                                       <table
                                                          align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
                                                          >
                                                          <tr>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background:#3b5998;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mjml.io/"
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png"
-                                                                            style="border-radius:3px;display:block; background-color: #5db7d2;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" style="float:none;display:inline-table;">
+                                            <tr>
+                                                <td style="padding:4px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background:#3b5998;border-radius:3px;width:15px;">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://mjml.io/"
+                                                                    target="_blank">
+                                                                    <img height="15"
+                                                                        src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png"
+                                                                        style="border-radius:3px;display:block; background-color: #5db7d2;"
+                                                                        width="15" />
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if mso | IE]>
                                                             </td>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background-color: #5db7d2;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" style="float:none;display:inline-table;">
+                                            <tr>
+                                                <td style="padding:4px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background-color: #5db7d2;border-radius:3px;width:15px;">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                                <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                                    target="_blank">
+                                                                    <img height="15"
+                                                                        src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png"
+                                                                        style="border-radius:3px;display:block;"
+                                                                        width="15" />
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if mso | IE]>
                                                             </td>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background-color: #5db7d2;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://mjml.io/&title=&summary=&source="
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" style="float:none;display:inline-table;">
+                                            <tr>
+                                                <td style="padding:4px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background-color: #5db7d2;border-radius:3px;width:15px;">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://mjml.io/&title=&summary=&source="
+                                                                    target="_blank">
+                                                                    <img height="15"
+                                                                        src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png"
+                                                                        style="border-radius:3px;display:block;"
+                                                                        width="15" />
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if mso | IE]>
                                                             </td>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background-color: #5db7d2;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://mjml.io/" target="_blank">
-                                                                        <img height="15"
-                                                                            src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" style="float:none;display:inline-table;">
+                                            <tr>
+                                                <td style="padding:4px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background-color: #5db7d2;border-radius:3px;width:15px;">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                                <a href="https://mjml.io/" target="_blank">
+                                                                    <img height="15"
+                                                                        src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png"
+                                                                        style="border-radius:3px;display:block;"
+                                                                        width="15" />
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if mso | IE]>
                                                             </td>
                                                          </tr>
                                                       </table>
                                                       <![endif]-->
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                        <td
                                           class="hide_on_mobile-outlook" style="vertical-align:top;width:40px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-5 outlook-group-fix hide_on_mobile"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                            <div
-                                                style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                <span class="primary-color section-slash">/</span></div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                        <div class="mj-column-per-5 outlook-group-fix hide_on_mobile"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                        <div
+                                            style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                                            <span class="primary-color section-slash">/</span></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                        <td
                                           class="" style="vertical-align:top;width:280px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-35 outlook-group-fix adjust-content-1"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td class="padding_on_mobile" align="left"
-                                            style="font-size:0px; padding: 10px 25px;word-break:break-word;">
-                                            <!--[if mso | IE]>
+                        <div class="mj-column-per-35 outlook-group-fix adjust-content-1"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td class="padding_on_mobile" align="left"
+                                        style="font-size:0px; padding: 10px 25px;word-break:break-word;">
+                                        <!--[if mso | IE]>
                                                       <table
                                                          align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
                                                          >
                                                          <tr>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background:#55acee;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_email.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <td style="vertical-align:middle;">
-                                                        <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                            style="color:#333333;font-size:12px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
-                                                            target="_blank">
-                                                            info@evolutionevents.com
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" style="float:none;display:inline-table;">
+                                            <tr>
+                                                <td style="padding:4px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background:#55acee;border-radius:3px;width:15px;">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                                <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                                    target="_blank">
+                                                                    <img height="15"
+                                                                        src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_email.png"
+                                                                        style="border-radius:3px;display:block;"
+                                                                        width="15" />
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="vertical-align:middle;">
+                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                        style="color:#333333;font-size:12px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
+                                                        target="_blank">
+                                                        info@evolutionevents.com
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if mso | IE]>
                                                             </td>
                                                             <td>
                                                                <![endif]-->
-                                            <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation" style="float:none;display:inline-table;">
-                                                <tr>
-                                                    <td style="padding:4px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0"
-                                                            role="presentation"
-                                                            style="background:#55acee;border-radius:3px;width:15px;">
-                                                            <tr>
-                                                                <td
-                                                                    style="font-size:0;height:15px;vertical-align:middle;width:15px;">
-                                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                                        target="_blank">
-                                                                        <img height="15"
-                                                                            src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_web.png"
-                                                                            style="border-radius:3px;display:block;"
-                                                                            width="15" />
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <td style="vertical-align:middle;">
-                                                        <a href="https://twitter.com/home?status=https://mjml.io/"
-                                                            style="color:#333333;font-size:12px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
-                                                            target="_blank">
-                                                            www.evolutionevents.com
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!--[if mso | IE]>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation" style="float:none;display:inline-table;">
+                                            <tr>
+                                                <td style="padding:4px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background:#55acee;border-radius:3px;width:15px;">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:0;height:15px;vertical-align:middle;width:15px;">
+                                                                <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                                    target="_blank">
+                                                                    <img height="15"
+                                                                        src="http://dubaitestserver.com/staging/evolution/email_signature/images/icon_web.png"
+                                                                        style="border-radius:3px;display:block;"
+                                                                        width="15" />
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="vertical-align:middle;">
+                                                    <a href="https://twitter.com/home?status=https://mjml.io/"
+                                                        style="color:#333333;font-size:12px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;"
+                                                        target="_blank">
+                                                        www.evolutionevents.com
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if mso | IE]>
                                                             </td>
                                                          </tr>
                                                       </table>
                                                       <![endif]-->
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                     </tr>
                                  </table>
                                  <![endif]-->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!--[if mso | IE]>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--[if mso | IE]>
                </td>
             </tr>
          </table>
@@ -737,57 +726,57 @@
             <tr>
                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
                   <![endif]-->
-        <div style="margin:0px auto;max-width:800px;">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                <tbody>
-                    <tr>
-                        <td style="direction:ltr;font-size:0px;text-align:center;">
-                            <!--[if mso | IE]>
+    <div style="margin:0px auto;max-width:800px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+            <tbody>
+                <tr>
+                    <td style="direction:ltr;font-size:0px;text-align:center;">
+                        <!--[if mso | IE]>
                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                        <td
                                           class="" style="vertical-align:top;width:800px;"
                                           >
                                           <![endif]-->
-                            <div class="mj-column-per-100 outlook-group-fix"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
-                                    <tr>
-                                        <td class="padding_on_mobile" align="left"
-                                            style="font-size:0px; padding:0px 25px; word-break:break-word;">
-                                            <div
-                                                style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                <p class="thin-p">The contents of this email message and any attachments
-                                                    are intended solely for the addressee(s) and may contain conﬁdential
-                                                    and/or privileged information which may be legally protected from
-                                                    disclosure. If you are not the intended recipient of this
-                                                    message or their agent, or if this message has been addressed to you
-                                                    in error, please immediately alert the sender by reply email and
-                                                    then delete this message and any attachments. If you are not the
-                                                    intended recipient, you are hereby notiﬁed that
-                                                    any use, dissemination, copying, or storage of this message or its
-                                                    attachments is strictly prohibited.
-                                                </p>
-                                                <p class="thin-p">Internet communications cannot be guaranteed to be
-                                                    timely, secure, error or virus-free. The sender does not accept
-                                                    liability for any errors or omissions.</p>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso | IE]>
+                        <div class="mj-column-per-100 outlook-group-fix"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;" width="100%">
+                                <tr>
+                                    <td class="padding_on_mobile" align="left"
+                                        style="font-size:0px; padding:0px 25px; word-break:break-word;">
+                                        <div
+                                            style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                                            <p class="thin-p">The contents of this email message and any attachments
+                                                are intended solely for the addressee(s) and may contain conﬁdential
+                                                and/or privileged information which may be legally protected from
+                                                disclosure. If you are not the intended recipient of this
+                                                message or their agent, or if this message has been addressed to you
+                                                in error, please immediately alert the sender by reply email and
+                                                then delete this message and any attachments. If you are not the
+                                                intended recipient, you are hereby notiﬁed that
+                                                any use, dissemination, copying, or storage of this message or its
+                                                attachments is strictly prohibited.
+                                            </p>
+                                            <p class="thin-p">Internet communications cannot be guaranteed to be
+                                                timely, secure, error or virus-free. The sender does not accept
+                                                liability for any errors or omissions.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]>
                                        </td>
                                     </tr>
                                  </table>
                                  <![endif]-->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!--[if mso | IE]>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--[if mso | IE]>
                </td>
             </tr>
          </table>
